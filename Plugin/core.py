@@ -1,4 +1,4 @@
-from flowpy import Plugin
+from flogin import Plugin
 
 plugin = Plugin()
 
