@@ -1,2 +1,3 @@
-# v0.0.1
-- Add notification when the plugin loads
+# v0.0.2
+- Update backend to flogin v0.0.2
+- Support the default embedded python version (3.11)
