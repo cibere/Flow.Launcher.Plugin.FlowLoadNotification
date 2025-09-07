@@ -6,6 +6,7 @@ sys.path.append(parent_folder_path)
 sys.path.append(os.path.join(parent_folder_path, "lib"))
 sys.path.append(os.path.join(parent_folder_path, ".venv", "lib", "site-packages"))
 
+import asyncio
 import logging
 
 from flogin import Plugin
@@ -22,6 +23,7 @@ async def on_initialization() -> None:
 
     if plugin.metadata.disabled:
         log.info("plugin disabled, not sending notification")
+        await asyncio.sleep(2)
     else:
         await plugin.api.show_notification(
             "Flow Load Notification",
