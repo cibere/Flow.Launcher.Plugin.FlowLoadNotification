@@ -1,1 +1,2 @@
 flogin==1.0.0
+aioconsole==0.8.1

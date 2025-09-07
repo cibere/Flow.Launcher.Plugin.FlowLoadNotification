@@ -41,15 +41,11 @@ body:
   - type: textarea
     attributes:
       label: Flow Launcher Log File
-      description: Use the `Open Log Location` command with the `System Commands` plugin to open the log file folder, and upload the newest file here.
-    validations:
-      required: true
+      description: If applicable, use the `Open Log Location` command with the `System Commands` plugin to open the log file folder, and upload the newest file here.
   - type: textarea
     attributes:
       label: Flogin Log File
-      description: Use the `Flow Launcher UserData Folder` command with the `System Commands` plugin to open your userdata folder, go into the `Plugins` folder, then find the plugin and go into it. If the `flogin.log` file exists, upload it here. Otherwise please state that it was not there.
-    validations:
-      required: true
+      description: If applicable, use the `Flow Launcher UserData Folder` command with the `System Commands` plugin to open your userdata folder, go into the `Plugins` folder, then find the plugin and go into it. If the `flogin.log` file exists, upload it here. Otherwise please state that it was not there.
   - type: checkboxes
     attributes:
       label: Checklist
@@ -58,7 +54,7 @@ body:
       options:
         - label: I have searched the open issues for duplicates.
           required: true
-        - label: I have shown the entire traceback, if possible.
+        - label: I have shown all applicable log files.
           required: true
   - type: textarea
     attributes:
