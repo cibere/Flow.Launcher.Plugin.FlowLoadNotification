@@ -2,4 +2,4 @@
 A plugin that only sends a notification when the plugin gets loaded after a restart or on first start.
 
 ## Example
-![](Images/example.png)
+![](assets/example.png)
