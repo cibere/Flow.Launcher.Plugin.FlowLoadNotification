@@ -1,6 +1,7 @@
 {
     "ID": "5f48576d-efe7-4562-a4ed-fe64455f1ac1",
     "ActionKeyword": "flow-load-notification",
+    "HideActionKeywordPanel": true,
     "Name": "Flow Load Notification",
     "Description": "A plugin that only sends a notification when the plugin gets loaded after a restart or on first start.",
     "Author": "cibere",
